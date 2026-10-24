@@ -1,0 +1,47 @@
+.carcasa{
+	background-color: rgb(160, 105, 2);
+	width: 475px;
+	height: 1070px;
+	border: 20px solid rgb(160, 105, 2);
+	border-radius: 10px;
+	box-shadow: 8px 8px 16px black;
+}
+.bordeCarcasa{
+	
+	width: 515px;
+	height: 1110px;
+	border-radius: 10px;
+	border: 1px solid black;
+	box-shadow:inset 2px 2px 2px white;
+	padding-top: 2px;
+	padding-left: 2px;
+}
+
+#board {
+	background-color: black;
+	height: 745px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 0px;
+	margin: auto;
+	border-top: 4px solid grey;
+	border-left: 4px solid grey;
+	border-right: 4px solid grey;
+	border-bottom: 4px solid grey;
+	box-shadow: 2px 2px 2px white;
+}
+.square {
+	background-color: black;
+	display: flex;
+	cursor: pointer;
+	height: 91px;
+	width: 92px;
+	border: 1px solid grey;
+	align-items: center;
+	justify-content: center;
+}
+footer{
+	position: absolute;
+	top: 1055px;
+	margin-left: 95px;
+}
